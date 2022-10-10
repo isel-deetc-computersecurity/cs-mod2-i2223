@@ -1,0 +1,41 @@
+services:
+  G1:
+    image: bkimminich/juice-shop
+    ports:
+      - 4001:3000
+  G2:
+    image: bkimminich/juice-shop
+    ports:
+      - 4002:3000
+  G3:
+    image: bkimminich/juice-shop
+    ports:
+      - 4003:3000
+  G4:
+    image: bkimminich/juice-shop
+    ports:
+      - 4004:3000
+  G5:
+    image: bkimminich/juice-shop
+    ports:
+      - 4005:3000                  
+  G6:
+    image: bkimminich/juice-shop
+    ports:
+      - 4006:3000
+  G7:
+    image: bkimminich/juice-shop
+    ports:
+      - 4007:3000     
+  G8:
+    image: bkimminich/juice-shop
+    ports:
+      - 4008:3000
+  G9:
+    image: bkimminich/juice-shop
+    ports:
+      - 4009:3000     
+  G10:
+    image: bkimminich/juice-shop
+    ports:
+      - 4010:3000            

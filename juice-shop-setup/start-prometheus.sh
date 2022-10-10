@@ -1,0 +1,1 @@
+docker run -p 7000:9090 --name prometheus -d -v /home/jsimao/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
